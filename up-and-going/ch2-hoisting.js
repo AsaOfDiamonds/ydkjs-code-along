@@ -34,3 +34,5 @@ console.log(a); // 2
 // }
 
 // console.log(a); // 2 
+
+// I hope everyone had a wonderful thanksgiving
