@@ -27,3 +27,23 @@ foo ();
 // `IIFE` function expression,
 // then `()` executes it
 (function IIFE(){})();
+
+////////////////////////////////////////////////
+const apple = 42;
+
+(function IIFE(){
+  const apple = 10;
+  console.log(apple);  // 10
+})();
+
+console.log(apple); // 42
+
+///////////////////////////////////
+
+// IIFE with return values
+
+const xray = (function IIFE(){
+  return 42;
+})();
+
+x; // 42
