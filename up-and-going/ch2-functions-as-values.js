@@ -47,3 +47,4 @@ const xray = (function IIFE(){
 })();
 
 x; // 42
+
